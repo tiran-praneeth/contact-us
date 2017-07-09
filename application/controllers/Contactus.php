@@ -72,6 +72,7 @@ class Contactus extends CI_Controller
 
 	        $cc_email = $this->Contactus_model->get_all_cc_email_ids($function_list['id']); // cc email email list
 	        $bcc_email = $this->Contactus_model->get_all_bcc_email_ids($function_list['id']); // bcc email email list
+	        $data = array('inquiry' => $email_data);
 	        $attachments = array();
 
 		    $input_params['input_params'] = array
@@ -82,7 +83,7 @@ class Contactus extends CI_Controller
 				 'primary_email'  => json_encode($primary_email),
 				 'cc_email'       => json_encode($cc_email),
 				 'bcc_email'      => json_encode($bcc_email),
-				 'email_data'     => json_encode($email_data),
+				 'email_data'     => json_encode($data),
 				 'attached_url'   => json_encode($attachments),
 			);
 
