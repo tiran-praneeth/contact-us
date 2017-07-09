@@ -1,0 +1,286 @@
+@media (min-width: 768px) and (max-width:992px) {
+    .container {
+		width: initial;
+        padding-left: 2em;
+        padding-right: 2em;        
+	}
+}
+
+/* --- Plans ---------------------------- */
+
+.my_planHeader {
+    text-align: center;
+    color: white;
+    padding-top:0.2em;
+    padding-bottom:0.7em;
+    background-color: #fff;
+   /* margin-bottom: -4px;*/
+}
+.my_planTitle {
+    font-size:18px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: #0288D1;
+
+}
+.my_planPrice {
+    font-size:1.4em;
+    font-weight: bold;    
+}
+.my_planDuration {
+    margin-top: -0.6em;
+}
+.beni-bt
+{
+    width: 100%;
+    height: 50px;
+    background-color: #FDD835;
+  /*  margin-top: 10px;
+    border-radius: 5px;*/
+    font-size: 16px;
+ /*   padding-left: -15px;
+    padding-right: -15px;*/
+}
+.beni-bt:hover
+{
+    background-color: #FBC02D;
+    cursor: pointer;
+}
+.buy-bt
+{
+    margin: auto;
+    width: 55%;
+    height: 45px;
+    background-color: #039BE5;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    line-height: 45px;
+
+}
+
+.confirm-qot-right
+{
+  height: 40px;
+  width: 40%;
+  text-align: center;
+  line-height: 40px;
+  margin:auto;
+  margin-top: 20px;
+  color: white;
+  float: left;
+  background-color: #0083c3;
+  font-size: 16px;
+   border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-right: 12px;
+}
+
+.confirm-qot-left
+{
+  height: 40px;
+  width: 40%;
+  text-align: center;
+  line-height: 40px;
+  margin:auto;
+  margin-top: 20px;
+  color: white;
+  float: left;
+  background-color: #039BE5;
+  font-size: 16px; 
+    border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-left: 25px;
+  padding-left: 12px;
+
+}
+.my-circle
+{
+    color: #ef5350;
+    font-size: 25px   !important;
+   /* margin-top: -5px !important;*/
+}
+.buy-bt:hover
+{
+    cursor: pointer;
+    background-color: #0288D1;
+}
+.nopadding
+{
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+}
+@media (max-width: 768px) {
+    .my_planTitle {
+        font-size:small;    
+    }   
+    .my_planHeader img
+    {
+      margin-left: -12px;
+    } 
+    .confirm-qot-left
+    {
+      margin-left: 5px;
+    }
+}
+
+/* --- Features ------------------------- */
+
+.my_feature {
+    
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-color: #F5F5F5;
+}
+
+@media (max-width: 768px) {
+    .my_feature {
+        text-align: center
+    }
+ }
+
+.my_featureRow {
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+    border-bottom: 0.1em solid #E0E0E0;
+    background-color: 
+}    
+.my_feature2 {
+    line-height:5.8em;  
+    background-color: #F5F5F5;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .my_feature2 {
+        text-align: center
+    }
+ }
+
+.my_feature2Row {
+    margin-top: 0.0em;
+    margin-bottom: 1.0em;
+    /*border-bottom: 0.1em solid #E0E0E0;*/
+}  
+/* --- Plan 1 --------------------------- */
+.my_plan1 {
+    /*background: rgb(224,234,242);*/
+}
+
+.my_planHeader.my_plan1 a {
+    background: #EEEEEE;
+    color:white;
+}
+
+.my_planHeader.my_plan1 {
+  /*  background: #EEEEEE;*/
+     padding-top: 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+/* --- Plan 2 --------------------------- */
+.my_plan2 {
+   /* background: #ECEFF1;*/
+}
+
+.my_planHeader.my_plan2 a {
+    background: #F5F5F5;
+    color:white;
+}
+
+.my_planHeader.my_plan2 {
+    background: #FFF;
+     padding-top: 10px;
+   border-bottom: 1px solid #E0E0E0;
+}
+
+/* --- Plan 3 --------------------------- */
+.my_plan3 {
+    /*background: rgb(254,235,212);*/
+}
+
+.my_planHeader.my_plan3 a {
+    background: #EEEEEE;
+    color:white;
+}
+
+.my_planHeader.my_plan3 {
+  /*  background: #EEEEEE;*/
+    padding-top: 10px;
+   border-bottom: 1px solid #E0E0E0;
+}
+
+
+
+
+.my_planFeature {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.9em;
+}
+
+.my_planFeature i.my_check {
+    color: #0288D1;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.sw-az
+{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}

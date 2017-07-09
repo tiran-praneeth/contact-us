@@ -1,0 +1,63 @@
+@media (min-width:321px) and (max-width:1024px){
+.topbarlogo{width:100px;}
+h1{  font-size: 19px; margin-top: 22px; margin-bottom: -32px; margin-left: -4px; }
+h2{ font-weight: 300; }
+#main-slider{ /*background-image: url(../images/mobibg.jpg);*/ background-color: #00a7de;background-size: cover;background-attachment: scroll;}
+#main-slider2 { background-color: #0f94b7; }
+.cop-box{width:330px;height:50px;margin:auto;margin-top:5px; background-color:transparent;background:transparent;}
+.link-tab h4{text-align:left;margin:0px;font-size:12px;margin-left:50px;margin-top:10px;}
+.link-tab-inme{margin-top: -2px;}
+.club-box h4{text-align:left;margin:0px;font-size:14px;margin-left:50px;margin-top:18px;}
+.club-box{height:50px;width:130px;overflow:hidden;border-radius:5px;float:right;margin-top:0px;}
+.link-tab{height:50px;width:190px;margin-top:0px;overflow:hidden;border-radius:5px;float:left;}
+.link-tab p{margin-top:20px;margin-left:50px;text-align:left;font-size:10px;}
+#main-slider .carousel .carousel-content{transform:scale(0.95);margin:auto;width:380px; padding-top: 0px;}
+.aboutbox{transform:scale(1.0);padding-top:50px;padding-bottom:50px;}
+.et-wrap{transform:scale(1.0);}
+.patner-wrap{transform:scale(1.0);}
+.bot-box{transform:scale(1.0);}
+.bot-inme{width:200px;}
+.carousel .slide{}
+.theinmelogo{float:left;width:100px;margin-left:20px;margin-right:-65px;margin-bottom:-50px;margin-top:30px;}
+#main-slider{min-height:100%;overflow:hidden;}
+#main-slider2{padding-top:5%;height:auto;padding-bottom:50px;overflow:hidden;}
+#main-slider3{padding-top:5%;height:auto;overflow:hidden;padding-top:50px;padding-bottom:50px;}
+#main-slider4{padding-top:6%;overflow:hidden;}
+#main-slider5{padding-top:15%;overflow:hidden;}
+#main-slider4 h2{font-size:25px;}
+.aboutbox h2{font-size:25px;}
+.form-group {
+    padding-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+header{display:none;}
+.bot-inmelogo{width:140px;}
+.bot-box h2{font-size:25px;}
+.youtube-link{width:100%;height:120px;}
+.vediobox{width:48%;height:122px;float:left;margin-left:2px;}
+.fb-box{width:30px;height:30px;margin-top:-50px;}
+.ab-box{float:left;overflow:hidden;height:145px;width:150px;padding:4px;}
+.ab-box p{font-size:12px;margin-top:4px;line-height:14px;}
+.ab-box img{width:65px;}
+.so-box-wrap{width:295px;margin:auto;text-align:center;}
+.sobox{width:47px;height:47px;margin:5px;text-align:center;}
+.bot-list-wrap{width:270px;margin:auto;}
+.bot-list-wrap ul li{width:60px;}
+.bot-list-wrap ul li a{font-size:11px;font-weight:400;}
+.xicon-box{margin:8px;margin-bottom: 16px; float:left;border-radius:55px;border:none;width:100px;height:100px;    background: transparent;
+    border: 1px solid;}
+.xicon-box img{margin-top:19px;height:60px;}
+.xicon-box h5{font-size:12px;font-weight: 400;margin-top: 26px;}
+.bot-copywrite{margin-top:15px;color:616161;font-size:12px;font-weight:300;text-align:center;}
+.xicon-box:hover{transform:scale(1.06);z-index:100000;border:none;background-color:#FFB300;}
+.bot-copywrite a{color:#039BE5;font-weight:300;}
+.patner-wrap{margin:auto;width:350px;}
+.aboutbox{width:350px;margin:auto;}
+.thelogo{margin-top:64px;width:200px;margin-bottom:-20px;}
+.carousel-content h3{font-size:14px;margin-top: 10px;}
+.padding-null{padding:0px;margin:0px;}
+.aboutbox .second-title-p{padding-left:5px;padding-right:5px;font-size:12px;line-height:16px;}
+.white-box{margin:4px;height:38px;float:left;width:95px;}
+.clinet-row{margin-top:0px;}
+.xiocn-wrap{margin-top:-30px;margin-left:0px;padding:0px;}
+}

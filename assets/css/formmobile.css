@@ -1,0 +1,153 @@
+.hotline-box
+{
+ border-bottom-right-radius: 25px;
+}
+#tcdemo
+{
+  padding: 10px;
+  background-color: #ffe5ec;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.tcdemo-bt
+{
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+}
+.pri-bt-wrap
+{
+	width: 250px;
+	height: 200px;
+	background-color: #0180bb;
+	overflow: hidden;
+	margin-top: -20px;
+	margin-left: -13px;
+	visibility: hidden;
+}
+
+.selector.open li input + label:hover .pri-bt-wrap { visibility: visible; }
+
+@media (min-width: 320px) and (max-width: 720px) {
+.container
+{
+	
+}
+.intor-box-top-banner
+{
+	display: none;
+}
+#dform2
+{
+	padding-bottom: 0px;
+	padding-top: 130px;
+}
+.title-bar
+{
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.navbar
+{
+	border-bottom-left-radius:0px;
+}
+.topbarlogo
+{
+	width: 120px;
+}
+.form-progress
+{
+	border-radius: 0px;
+	/*transform: scale(0.5);*/
+	float: left;
+	display: none;
+}
+.progress
+{
+	transform: scale(0.5);
+}
+.spanal
+{
+	border-radius: 0px;
+}
+.title-bar
+{
+	padding-left: 20px;
+	text-align: left;
+}
+.tooltipbt
+{
+	/*display: none;*/
+
+	padding: 3px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.form-group
+{
+	/*text-align: center;*/
+}
+.label-cuz
+{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	clear: both;
+}
+.form-control
+{
+	
+	margin-left: 0px;
+}
+.bttwrap
+{
+	margin-left: 0px;
+}
+.btn-primary
+{
+	width: 250px !important;
+	margin-top: 10px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+.navbar
+{
+	padding: 5px !important;
+}
+#form-slider
+{
+	height: 150px !important;
+	overflow: hidden !important;
+}
+.bootstrap-switch
+{
+	display: block;
+	margin: auto;
+}
+.selectorWrap
+{
+	transform: scale(0.5); 
+	margin-left: -60px;
+	margin-top: -120px;
+	background-color: white;
+}
+.dform2b
+{
+	padding: 0px;
+	margin-top: -240px;
+}
+.tooltip-bt
+{
+	width: 110px !important;
+	margin: auto !important;
+	padding-top: 15px !important;
+	float: none !important;
+	clear: both !important;
+	font-weight: 500;
+}
+
+
+
+
+}

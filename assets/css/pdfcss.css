@@ -1,0 +1,236 @@
+			#templateContainer{
+				/*@editable*/ border:0;
+			}
+                        
+
+
+			h1, .h1{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:40px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:2%;
+				margin-right:0;
+				margin-bottom:1%;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			h2, .h2{
+				/*@editable*/ color:#404040;
+				display:block;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:18px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:2%;
+				margin-right:0;
+				margin-bottom:1%;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+			h3, .h3{
+				/*@editable*/ color:#606060;
+				display:block;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:2%;
+				margin-right:0;
+				margin-bottom:1%;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			h4, .h4{
+				/*@editable*/ color:#808080;
+				display:block;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:2%;
+				margin-right:0;
+				margin-bottom:1%;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+                        latePreheader{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+
+			.preheaderContent div{
+				/*@editable*/ color:#707070;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:left;
+			}
+
+			.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#social div{
+				/*@editable*/ text-align:right;
+			}
+
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;                                
+			}
+                        #templateInsAct{
+                                /*@editable*/ border-top:1px solid #505050;
+                                /*@editable*/ margin-bottom:5px;
+				/*@editable*/ background-color:#FFFFFF;
+			}
+                        #templateFooter{
+                                 /*@editable*/ margin-top:50px;
+                                /*@editable*/ padding:5px;
+				/*@editable*/ border-top:1px solid #505050;
+                                /*@editable*/ font-size:12px;
+                        }
+
+			.headerContent{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:right;
+				/*@editable*/ vertical-align:top;
+			}
+                        
+                        .InsActContent{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:center;
+				/*@editable*/ vertical-align:middle;
+                                /*@editable*/ margin-bottom:10px;
+			}
+                        
+                        .bodyTrafficAct{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:14px;
+                                /*@editable*/ font-weight:bold;
+                                /*@editable*/ margin-bottom:10px;
+			}
+                        
+                        #bodyWording{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ text-align:left;
+                                              line-height: 200%;
+                                              display: block;
+                                /*@editable*/ margin-bottom:10px;
+			}                        
+
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			#headerImage{
+				height:auto;
+				max-width:600px !important;
+			}
+
+			.bodyContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:justify;
+			}
+
+			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.bodyContent img{
+				display:inline;
+				height:auto;
+			}
+
+			.sidebarContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			.sidebarContent div a:link, .sidebarContent div a:visited, /* Yahoo! Mail Override */ .sidebarContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.sidebarContent img{
+				display:inline;
+				height:auto;
+			}
+
+
+
+
+
+
+			#social div{
+				/*@editable*/ text-align:left;
+			}
+
+			#utility div{
+				/*@editable*/ text-align:left;
+			}
+			
+			#monkeyRewards img{
+				max-width:170px !important;
+			}
+
+			.templateBody{
+			
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+				/*@editable*/ text-valign:top;
+                                margin-bottom: 10px;
+			}
+			.templateBodyCenter{
+			
+				/*@editable*/ font-family:HelveticaNeue;
+				/*@editable*/ font-size:14px;
+
+			}
+                                               
+                        #address{
+                        padding-left:10px; 
+                        font-size:13px;
+                        text-align:left;
+                        }
+                        
+                        
+                        #img{
+                           margin-top: -20px;
+                            
+                        }
+                        #insureme_word{
+                          float: right; 
+                        }
+                        #logo{
+                            
+                           margin-left: -50px;
+                        }

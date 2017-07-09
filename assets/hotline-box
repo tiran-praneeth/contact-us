@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>InsureMe.lk</title>
+	
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/mike-style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-underline.css" />
+    <link rel="stylesheet" type="text/css" href="css/set2.css" />
+    
+  
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
+    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
+    <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" type="text/css" href="css/DateTimePicker.css" /> 
+    <link rel="stylesheet" type="text/css" href="dev/UI-Dropdown-master/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="dev/UI-Dropdown-master/transition.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menusvg.css" />
+
+    
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/classie.js"></script>
+
+   
+   <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+   <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="dev/tooltipster/dist/css/tooltipster.bundle.css" />
+
+   
+  <script type="text/javascript" src="dev/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+  <script type="text/javascript" src="dev/UI-Dropdown-master/dropdown.min.js"></script>
+  <script type="text/javascript" src="dev/UI-Dropdown-master/transition.min.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="dev/btStyle/css/buttons.css" />
+  <link rel="stylesheet" type="text/css" href="dev/Animocons/css/icons.css" />
+
+  <script src="js/DateTimePicker.js"></script>
+  <link rel="stylesheet" type="text/css" href="dev/jelly/css/ns-default.css" />
+  <link rel="stylesheet" type="text/css" href="dev/jelly/css/ns-style-growl.css" />
+  <script src="dev/jelly/js/modernizr.custom.js"></script>
+
+  
+   <!--  [if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    [endif]    -->   
+
+</head>
+
+<body class="">
+<header id="header">
+        <div class="top-bar hidden-sm hidden-xs">
+     
+        </div><!--/.top-bar-->
+        <nav class="navbar" role="banner">
+            <div class="navpad container-fluid">
+                <div class="navbar-header">                 
+                    <a class="navbar-brand" href="index.html"><img src="images/logome.png"  width="170px" alt="logo" /></a>
+                </div>
+                               
+                <div class="collapse navbar-collapse navbar-right">
+                    <div class="">
+                      <div id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                      <script type="text/javascript">
+                        $(document).ready(function(){
+                        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+                          $(this).toggleClass('open');
+                        });
+                      });
+                      </script>
+
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+                   <div class="link-tab">
+                     <img src="images/inme/10.png" height="100" class="link-tab-inme" />
+                       <h4>By Now Pay Monthly</h4>
+                       <p>3,6,9,12 Monthly Instalment</p>
+                   </div>
+                    <div class="hotline-box">
+                     <img src="images/phonem.png" height="60" class="hotline-box-icon" />
+                       <h4>Hotline</h4>
+                       <p>07 690 690 00 </p>
+                   </div>
+                </div>
+           <!--       <div class="collapse navbar-collapse navbar-right">
+                   <div class="link-tab"></div>
+                </div>   -->
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+  <section id="main-slider" class="no-margin">
+   <!--  <div class="main-grip-wrap"> -->
+        <div class="carousel slide">    
+            <div class=" wow fadeInDown" data-wow-duration="1000ms" >
+                <div class="item active" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content">
+                                <img src="images/logo.png" width="350" class="thelogo" style="margin-left: 0px;" />
+                                 <h3>Insurance <span class="undertitleblue">Made Easy</span> With <span class="undertitleYellow"> InsureMe</span></h3>
+                              <!--    <hr class="silver-line" > -->
+                               <!--  <p>We have a team of professionals with wide experience in the field of insurance. <br>Allow us to take care of you by arranging the appropriate cover at best terms.</p> -->
+                             <!--    <hr class="silver-line" > -->
+                                <br>
+                                <div class="container xiocn-wrap">
+                                
+                                <div class="col-sm-2"><div class="xicon-box">
+                                     <img src="images/sedan.png" height="80px" />
+                                     <h5>Car / Jeep / SUV</h5>
+                                </div></div>
+                                 <div class="col-sm-2"><div class="xicon-box">
+                                     <img src="images/van.png" height="80px" />
+                                     <h5>Van & Cab</h5>
+                                 </div></div>
+                                 <div class="col-sm-2"><div class="xicon-box">
+                                     <img src="images/vintage-scooter.png" height="80px" />
+                                     <h5>Motorcycle</h5>
+                                 </div></div>                         
+                                 <div class="col-sm-2"><div class="xicon-box">
+                                     <img src="images/rickshaw.png" height="80px" />
+                                     <h5>Three wheeler</h5>
+                                 </div></div>
+                                 <div class="col-sm-2"><div class="xicon-box">
+                                     <img src="images/lorry.png" height="80px" />
+                                     <h5>Lorry</h5>
+                                 </div></div>                          
+
+                                </div>
+                                 <div class="container xiocn-wrap">                        
+                                  <div class="col-sm-2 col-md-offset-2"><div class="xicon-box">
+                                     <img src="images/tractor.png" height="80px" />
+                                     <h5>Other Vehicles</h5>
+                                 </div></div>
+                                   <div class="col-sm-2"><div class="xicon-box">
+                                     <img src="images/plane.png" height="80px" />
+                                     <h5>Travel</h5>
+                                 </div></div>
+                                  <div class="col-sm-2"><div class="xicon-box">
+                                     <img src="images/home.png" height="80px" />
+                                     <h5>Home</h5>
+                                 </div></div>
+
+                                </div>                           
+                                </div>
+
+                                <div class="container xiocn-wrap-2">   
+                                    <div class="cop-box"><!-- <img src="images/inme/9.png" height="150" class="copinme" /> -->
+                                    <div class="cop-text">
+                                      <ul>
+                                        <li>Also See : </li>
+                                        <li><a>Home</a></li>
+                                        <li><a>Services</a></li>
+                                        <li><a>News</a></li>
+                                        <li><a>About Us</a></li>
+                                        <li><a>Contact Us</a></li>
+                                      </ul>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+         </div>
+         </div>
+
+</section><!--/#main-slider-->     
+<section id="main-slider2" >
+        <div class="container aboutbox">
+        <h2 class="second-title">Why InsureMe ? </h2>
+        <p class="second-title-p">InsureMe is a dynamic and innovative insurance broking company offering Life and General Insurance solutions to corporate and individual customers.</p>
+          <div class="row">  
+             <div class="col-sm-4 col-md-4">
+                <div class="ab-box">
+                <img src="images/ab1.png" height="150"/ >
+                  <p>Transparent & unbiased professional service</p>
+                </div>
+             </div>
+             <div class="col-sm-4 col-md-4">
+                <div class="ab-box">
+                  <img src="images/ab2.png" height="150"/ >
+                  <p>Wide range of customized <br>
+                  Insurance solutions </p>
+                
+                </div>
+             </div>
+             <div class="col-sm-4 col-md-4">
+                <div class="ab-box">
+                       <img src="images/ab4.png" height="150"/ >
+                  <p>Dedicated Account Manager for <br>
+                  each customer saving time & cost</p>
+                </div>
+             </div>
+          </div>
+          <div class="row">  
+             <div class="col-sm-4 col-md-4">
+                <div class="ab-box">
+                       <img src="images/ab5.png" height="150"/ >
+                  <p>Wealth of expertise and direct access <br>
+                  to all the key insurers</p>
+                </div>
+             </div>
+             <div class="col-sm-4 col-md-4">
+                <div class="ab-box">
+                       <img src="images/ab6.png" height="150"/ >
+                  <p>Expert advice at NO COST to select the <br>
+                  best insurance solution</p>
+                </div>
+             </div>
+             <div class="col-sm-4 col-md-4">
+                <div class="ab-box">
+                       <img src="images/ab3.png" height="150"/ >
+                  <p>Efficient and effective claims handling <br>
+                  and 24/7 claims support</p>
+                </div>
+             </div>
+          </div>
+        </div>    
+</section>
+<section id="main-slider3" >
+     <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 appbox">
+              <h4>COMING SOON</h4>
+              <p>InsureMe Mobile App</p>
+              <img src="images/mobile.png" width="55%"/>
+              <div class="applinebox">
+                <div class="applink1">
+                  <img src="images/googleplay.png" width="80%" style="float: right;" />
+                </div>
+                <div class="applink1">
+                  <img src="images/app-store.png" width="80%" style="float: left;"/>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-6 mediabox">
+              <h4>Media</h4>
+              <p>insureMe Social Media</p>
+              <div class="fb-box"><a href="https://www.facebook.com/InsureMe.lk/?fref=ts" target="_blank"><img src="images/fb.png" width="100%" /></a></div>
+            <div class="vediobox">
+              <iframe width="100%" height="260" src="https://www.youtube.com/embed/4giCAjEUl4A" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="vediobox">
+              <iframe width="100%" height="260" src="https://www.youtube.com/embed/dB26zKMmunA" frameborder="0" allowfullscreen></iframe>
+            </div>           
+          </div>
+        </div>
+     </div>
+</section>
+
+<section id="main-slider4" >
+     <div class="container">
+        <h2>InsureMe Partners</h2>
+        <hr class="dash-line">
+       
+        <div class="row clinet-row">
+          <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/allianz_logo.png" height="100%" /></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/ceylinco_logo.png" height="100%" /></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/continental_logo.png" height="100%"" /></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/fairfirst_logo.png" height="100%" /></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/hnbg_logo.png" height="100%" /></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/janashakthi_logo.png" height="100%"/></div>
+          </div>
+        </div>
+        <div class="row clinet-row">
+          <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/lolc_logo.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/orient_logo.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/sl_insurance.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com1.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com2.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com3.png" height="100%"/></div>
+          </div>
+        </div>
+         <div class="row clinet-row">
+          <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com10.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com5.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com4.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com7.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com8.png" height="100%"/></div>
+          </div>
+           <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com9.png" height="100%"/></div>
+          </div>
+        </div>
+         <div class="row clinet-row">
+          <div class="col-sm-2 col-md-2">
+            <div class="white-box"><img src="images/com/com6.png" height="100%"/></div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section id="main-slider5" >
+    <div class="container bot-box">
+      <img src="images/inme/4.png" width="480px" /><br>
+      <img src="images/logome.png" width="190px" style="margin-top: -30px;" />
+      <h2>Contact with Us</h2>
+     <!--  <p>Follow,like,or post. We Would love to interact with you</p> -->
+
+      <div class="so-box-wrap">
+          <div class="sobox"><img src="images/so/facebook-logo.png" width="50%" /></iframe></div>
+          <div class="sobox"><img src="images/so/google-plus.png" width="50%" /></div>
+          <div class="sobox"><img src="images/so/instagram.png" width="50%" /></div>
+          <div class="sobox"><img src="images/so/linkedin-logo.png" width="50%" /></div>
+          <div class="sobox"><img src="images/so/youtube-logotype.png" width="50%" /></div>
+      </div>
+      <div class="bot-list-wrap">
+          <ul>
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>News</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+      </div>
+    </div>
+</section>
+
+    <script src="dev/Animocons/js/mo.min.js"></script>
+    <script src="dev/PBtStyles/js/classie.js"></script>
+    <script src="dev/jelly/js/classie.js"></script>
+    <script src="dev/jelly/js/notificationFx.js"></script>
+    <script>
+
+
+
+    </script>
+
+
+
+
+  <script type="text/javascript">
+        $(document).ready(function() {
+            $('.roound-tip').tooltipster({
+              animation: 'grow',
+              delay: 200,            
+              trigger: 'click'
+            });
+        });
+  </script>
+
+
+<script>var nbOptions = 8;
+var angleStart = -360;
+
+// jquery rotate animation
+function rotate(li,d) {
+    $({d:angleStart}).animate({d:d}, {
+        step: function(now) {
+            $(li)
+               .css({ transform: 'rotate('+now+'deg)' })
+               .find('label')
+                  .css({ transform: 'rotate('+(-now)+'deg)' });
+        }, duration: 0
+    });
+}
+
+// show / hide the options
+function toggleOptions(s) {
+    $(s).toggleClass('open');
+    var li = $(s).find('li');
+    var deg = $(s).hasClass('half') ? 180/(li.length-1) : 360/li.length;
+    for(var i=0; i<li.length; i++) {
+        var d = $(s).hasClass('half') ? (i*deg)-90 : i*deg;
+        $(s).hasClass('open') ? rotate(li[i],d) : rotate(li[i],angleStart);
+    }
+}
+
+$('.selector button').click(function(e) {
+    toggleOptions($(this).parent());
+});
+
+setTimeout(function() { toggleOptions('.selector'); }, 100);//@ sourceURL=pen.js
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div>
+</section><!--/#feature-->
+
+
+
+
+     <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2016 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">insureme.lk</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Product By InsureMe Insurance Brokers (Pvt) Ltd.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+    <script src="js/classie.js"></script>
+        <script>
+            (function() {
+                // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+                if (!String.prototype.trim) {
+                    (function() {
+                        // Make sure we trim BOM and NBSP
+                        var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+                        String.prototype.trim = function() {
+                            return this.replace(rtrim, '');
+                        };
+                    })();
+                }
+
+                [].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+                    // in case the input is already filled..
+                    if( inputEl.value.trim() !== '' ) {
+                        classie.add( inputEl.parentNode, 'input--filled' );
+                    }
+
+                    // events:
+                    inputEl.addEventListener( 'focus', onInputFocus );
+                    inputEl.addEventListener( 'blur', onInputBlur );
+                } );
+
+                function onInputFocus( ev ) {
+                    classie.add( ev.target.parentNode, 'input--filled' );
+                }
+
+                function onInputBlur( ev ) {
+                    if( ev.target.value.trim() === '' ) {
+                        classie.remove( ev.target.parentNode, 'input--filled' );
+                    }
+                }
+            })();
+        </script>
+
+
+
+    <script src="js/classie.js"></script>
+    <script src="js/selectFx.js"></script>
+        <script>
+            (function() {
+                [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {    
+                    new SelectFx(el);
+                } );
+            })();
+        </script>
+ 
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/wow.min.js"></script>
+
+
+
+<script>
+ $("body").niceScroll({
+    
+    cursorcolor: "#00aeef",
+    cursorwidth: "10px",
+    cursorborderradius: "20px",
+    cursorborder: "none",
+    horizontalScrolling : "none",
+    marginleft: "5px"
+
+});
+
+</script>
+    <script type="text/javascript" src="js/jquery.videoBG.js"></script>
+<!-- 
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('#main-slider').videoBG({        
+        zIndex:0,
+        position: 'relative',
+   
+
+        ogv:'Produce.ogv',
+        webm:'Produce.webm',      
+        opacity:1,
+        fullscreen:false,
+    });
+    
+  
+        
+})
+    </script> -->
+  <script>
+
+        $("#vebox1").click(function(){
+            $("#vebox1").css({"background": "#00a0e3" ,"border": "0px solid #FFF59D","color":"FFB300"}),
+            $("#vebox2").css({"background": "#EEEEEE" ,"border": "0px solid #B3E5FC","color":"00a0e3"}),
+            $("#vebox1ch").css({"margin-top" : "0px","opacity": "1.0"}),
+            $("#vebox2ch").css({"margin-top" : "50px","opacity": "0.0"})
+        });
+          $("#vebox2").click(function(){
+            $("#vebox2").css({"background": "#00a0e3" ,"border": "0px solid #FFB300"}),
+            $("#vebox1").css({"background": "#EEEEEE" ,"border": "0px solid #00a0e3"}),
+            $("#vebox2ch").css({"margin-top" : "0px","opacity": "1.0"}),
+            $("#vebox1ch").css({"margin-top" : "50px","opacity": "0.0"})
+        });
+</script>
+     <script>
+        $(document).ready(function() {
+            $('.tooltipss').tooltipster({
+              animation: 'grow',
+              delay: 200,            
+              trigger: 'hover'
+            });
+        });
+          $(document).ready(function() {
+            $('.tooltipss-side').tooltipster({
+              animation: 'grow',             
+              delay: 200,            
+              trigger: 'hover'
+            });
+        });
+    </script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
