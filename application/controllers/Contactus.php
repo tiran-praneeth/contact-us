@@ -10,6 +10,7 @@ class Contactus extends CI_Controller
 		$this->load->helper(array('form', 'url', 'captcha'));
 		$this->load->model('Contactus_model');
 		$this->load->library('Nusoap_library');
+		$this->load->library('email_queue');
 	}
 
 	/* Contact us form initiator */
@@ -41,86 +42,14 @@ class Contactus extends CI_Controller
 	    	$message_result	= $this->Contactus_model->save_message($message_data);
 
 	    	if ($message_result) {
-	    		$send_broker_email = $this->send_inquiry_email('INQUIRIES_BROKER', $message_data); // send email to broker
-	    		$send_customer_email = $this->send_inquiry_email('INQUIRIES_CUSTOMER', $message_data, array($message_data['cx_email'])); // send email to customer
+	    		$data_array = array('inquiry' => $message_data);
+	    		$send_broker_email = $this->email_queue->send_instant_email('INQUIRIES_BROKER', $data_array); // send email to broker
+	    		$send_customer_email = $this->email_queue->send_instant_email('INQUIRIES_CUSTOMER', $data_array, array($message_data['cx_email'])); // send email to customer
 	    	}
 
     		$data['result']	= $message_result;
     		echo json_encode($data);
 	    }
-  	}
-
-  	/**
-  	 * Send Inquiry Email
-  	 * 
-  	 * @param  string $function_name - email function(template) name
-  	 * @param  array  $email_data    - email data set
-  	 * @param  array  $ex_email      - optional - primary email array
-  	 * @return array                
-  	 */
-  	public function send_inquiry_email($function_name, $email_data, $ex_email = null)
-  	{
-        $function_list = $this->Contactus_model->get_email_fun_list($function_name);
-
-        if (!empty($function_list)) {
-
-        	if (empty($ex_email)) {
-        		$primary_email = $this->Contactus_model->get_primary_email_ids($function_list['id']); // primary email list
-	        } else {
-	        	$primary_email = $ex_email;
-	        }
-
-	        $cc_email = $this->Contactus_model->get_all_cc_email_ids($function_list['id']); // cc email email list
-	        $bcc_email = $this->Contactus_model->get_all_bcc_email_ids($function_list['id']); // bcc email email list
-	        $data = array('inquiry' => $email_data);
-	        $attachments = array();
-
-		    $input_params['input_params'] = array
-			(
-				/* Mandatory parameter list */
-				 'app_code'       => $this->config->item('email_app_code'),
-				 'email_template' => $function_name, // email template tag name
-				 'primary_email'  => json_encode($primary_email),
-				 'cc_email'       => json_encode($cc_email),
-				 'bcc_email'      => json_encode($bcc_email),
-				 'email_data'     => json_encode($data),
-				 'attached_url'   => json_encode($attachments),
-			);
-
-			$api_key = $this->config->item('email_app_key'); // auth key for email app authentication
-
-			$header = (
-	                "<authCredentials>" .
-	                "<api_key>" . htmlspecialchars($api_key) . "</api_key>" .
-	                "</authCredentials>"
-	                );
-
-			$server_url = $this->config->item('email_app_url'); // live url
-			$email_app_url_test = $this->config->item('email_app_url_test'); // test url
-	        $client = new nusoap_client($server_url);
-
-			$client->setHeaders($header);
-
-	        $ws_response = $client->call('instant_email_queue', $input_params); // call instant email queue web service
-
-	        if (!isset($ws_response['error'])) {
-	        	return 1;
-	        } else {
-	        	return 0;
-	        }
-	        
-	        /* ----- Debug Option ----- */
-
-			// echo "<h2>Request</h2>";
-			// echo "<pre>" . htmlspecialchars($client->request, ENT_QUOTES) . "</pre>";
-			// echo "<h2>Responses</h2>";
-			// echo "<pre>" . htmlspecialchars($client->response, ENT_QUOTES) . "</pre>";
-			// echo '<h2>Debug</h2><pre>' . htmlspecialchars($client->debug_str, ENT_QUOTES) . '</pre>';
-			
-        } else {
-        	return 0;
-        }
-        
   	}
 
   	/* Force refresh captcha by user */

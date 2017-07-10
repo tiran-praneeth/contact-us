@@ -76,10 +76,14 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
+
+	'username' => 'root',
+	'password' => 'Try0n!c$',
+	'database' => 'mas',
 	
-	'username' => 'c2inme',
+	/*'username' => 'c2inme',
 	'password' => 'Cf9yQJBM',
-	'database' => 'c2_mas',
+	'database' => 'c2_mas',*/
 	
 	/*'username' => 'c2test_inme',
 	'password' => 'test_inme@234',
